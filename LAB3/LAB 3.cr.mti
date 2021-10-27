@@ -1,0 +1,23 @@
+{E:/CPEN 211 Git/LAB3/lab3_top (1) (1).v} {1 {vlog -work work -stats=none {E:/CPEN 211 Git/LAB3/lab3_top (1) (1).v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab3_top
+
+Top level modules:
+	lab3_top
+
+} {} {}} {E:/CPEN 211 Git/LAB3/module FSM.v} {1 {vlog -work work -stats=none {E:/CPEN 211 Git/LAB3/module FSM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FSM
+-- Compiling module vDFF
+
+Top level modules:
+	FSM
+
+} {} {}} {E:/CPEN 211 Git/LAB3/lab3_tb.v} {1 {vlog -work work -stats=none {E:/CPEN 211 Git/LAB3/lab3_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab3_top_tb
+
+Top level modules:
+	lab3_top_tb
+
+} {} {}}

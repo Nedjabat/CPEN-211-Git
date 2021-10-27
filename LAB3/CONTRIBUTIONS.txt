@@ -1,0 +1,3 @@
+Partner 1 and partner 2 worked together on the intial code.
+Partner 1 worked on debugging and supplementing the intial code
+Partner 2 worked on the testbench and uploading to quartus and board

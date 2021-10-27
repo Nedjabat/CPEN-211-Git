@@ -1,0 +1,432 @@
+# Reading E:/Modelsim/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {E:/CPEN 211 Git/LAB3/7segdisplay (1).v}
+# Loading project Lab3
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.lab3_top_tb
+# vsim -gui work.lab3_top_tb 
+# Start time: 20:01:41 on Oct 26,2021
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+add wave -position end  sim:/lab3_top_tb/sim_SW
+add wave -position end  sim:/lab3_top_tb/sim_KEY
+add wave -position end  sim:/lab3_top_tb/sim_HEX0
+add wave -position end  sim:/lab3_top_tb/err
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+restart -f
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+add wave -position end  sim:/lab3_top_tb/dut/state
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+quit -sim
+vsim -gui work.lab3_top_tb
+# End time: 20:13:29 on Oct 26,2021, Elapsed time: 0:11:48
+# Errors: 0, Warnings: 0
+# vsim -gui work.lab3_top_tb 
+# Start time: 20:13:29 on Oct 26,2021
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+add wave -position end  sim:/lab3_top_tb/sim_SW
+add wave -position end  sim:/lab3_top_tb/sim_KEY
+add wave -position end  sim:/lab3_top_tb/sim_HEX0
+add wave -position end  sim:/lab3_top_tb/dut/state
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking ErrOr
+# ERROR ** output is 1000110, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(105)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 105
+quit -sim
+# End time: 20:14:05 on Oct 26,2021, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.lab3_top_tb
+# vsim -gui work.lab3_top_tb 
+# Start time: 20:18:55 on Oct 26,2021
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+add wave -position end  sim:/lab3_top_tb/sim_SW
+add wave -position end  sim:/lab3_top_tb/sim_KEY
+add wave -position end  sim:/lab3_top_tb/sim_HEX0
+add wave -position end  sim:/lab3_top_tb/dut/state
+run
+# checking ErrOr
+# ERROR ** state is 1000, expected 1101
+# checking S1->S2
+# ERROR ** state is 1001, expected 0001
+# checking S2->S3
+# ERROR ** state is 1010, expected 0010
+# checking S3->S4
+# ERROR ** state is 1011, expected 0011
+# checking S4->S5
+# ERROR ** state is 1100, expected 0100
+# checking S5->S6
+# ERROR ** state is 1101, expected 0101
+# ERROR ** output is 1000110, expected 01111001
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(107)
+#    Time: 60 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 107
+restart -f
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# ERROR ** state is 0111, expected 0000
+# ERROR ** output is 1000000, expected 00010010
+# checking S1-S8
+# ERROR ** state is 0111, expected 1000
+# checking ErrOr
+# ERROR ** state is 0111, expected 1101
+# ERROR ** output is 1000000, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(116)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 116
+add wave -position end  sim:/lab3_top_tb/err
+add wave -position end  sim:/lab3_top_tb/dut/reset
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# ERROR ** state is 0111, expected 0000
+# ERROR ** output is 1000000, expected 00010010
+# checking S1-S8
+# ERROR ** state is 0111, expected 1000
+# checking ErrOr
+# ERROR ** state is 0111, expected 1101
+# ERROR ** output is 1000000, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(116)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 116
+restart -f
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# ERROR ** state is 0111, expected 0000
+# ERROR ** output is 1000000, expected 00010010
+# checking S1-S8
+# ERROR ** state is 0111, expected 1000
+# checking ErrOr
+# ERROR ** state is 0111, expected 1101
+# ERROR ** output is 1000000, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(116)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 116
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# ERROR ** output is 1111111, expected 00010010
+# checking S1-S8
+# ERROR ** state is 0000, expected 1000
+# ERROR ** output is 1111111, expected 01000000
+# checking ErrOr
+# ERROR ** state is 0000, expected 1101
+# ERROR ** output is 1111111, expected 00000110
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(117)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 117
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# checking S1-S8
+# checking ErrOr
+# ERROR ** state is 1001, expected 1101
+# FAILED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(118)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 118
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+run
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# checking S1-S8
+# checking ErrOr
+# PASSED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(118)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 118
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {E:/CPEN 211 Git/LAB3,working/lab3_wave_gatelevel.do}
+# Compile of SEG.v was successful.
+# Compile of FSM.v was successful.
+# Compile of lab3_top.v was successful.
+# Compile of lab3_top_tb.v was successful.
+# Compile of lab3_top_tb_gatelevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab3_top_tb
+# Loading work.lab3_top
+# Loading work.FSM
+# Loading work.vDFF
+# Loading work.SEG
+run
+# checking S1->S2
+# checking S2->S3
+# checking S3->S4
+# checking S4->S5
+# checking S5->S6
+# checking S6-S7
+# checking reset
+# checking S1-S8
+# checking ErrOr
+# PASSED
+# ** Note: $stop    : E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v(118)
+#    Time: 90 ps  Iteration: 0  Instance: /lab3_top_tb
+# Break in Module lab3_top_tb at E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v line 118
+# End time: 20:34:44 on Oct 26,2021, Elapsed time: 0:15:49
+# Errors: 0, Warnings: 0

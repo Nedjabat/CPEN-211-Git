@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CPen git/CPEN-Git/lab 8
+vFSM
+Z0 !s110 1635287594
+!i10b 1
+!s100 dUzSSjMM7eWAkS7e`10[F1
+I[G^FWh4MW_VYB_9FSiNf;1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/CPEN 211 Git/LAB3
+Z3 w1635287056
+Z4 8E:/CPEN 211 Git/LAB3/module FSM.v
+Z5 FE:/CPEN 211 Git/LAB3/module FSM.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1635287594.000000
+Z8 !s107 E:/CPEN 211 Git/LAB3/module FSM.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN 211 Git/LAB3/module FSM.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@f@s@m
+vlab3_top
+R0
+!i10b 1
+!s100 C2gf0X?3j^Y`:8d1^^cgX0
+Id47SiIQ^A5iJ5B9DS0dFP0
+R1
+R2
+w1635287089
+8E:/CPEN 211 Git/LAB3/lab3_top (1) (1).v
+FE:/CPEN 211 Git/LAB3/lab3_top (1) (1).v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/CPEN 211 Git/LAB3/lab3_top (1) (1).v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN 211 Git/LAB3/lab3_top (1) (1).v|
+!i113 1
+R10
+R11
+vlab3_top_tb
+R0
+!i10b 1
+!s100 UUN[iXS1l_L7ojYFLe:_d2
+I3K?B>DD3RP9iY<3=L3EWN1
+R1
+R2
+w1635287583
+8E:/CPEN 211 Git/LAB3/lab3_tb.v
+FE:/CPEN 211 Git/LAB3/lab3_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/CPEN 211 Git/LAB3/lab3_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN 211 Git/LAB3/lab3_tb.v|
+!i113 1
+R10
+R11
+vSEG
+R0
+!i10b 1
+!s100 g;jza2Ha>aYlohZ?azL>m2
+IjNhSDBc[^bPWYII4]z;2=0
+R1
+R2
+w1635287171
+8E:/CPEN 211 Git/LAB3/7segdisplay (1).v
+FE:/CPEN 211 Git/LAB3/7segdisplay (1).v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/CPEN 211 Git/LAB3/7segdisplay (1).v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN 211 Git/LAB3/7segdisplay (1).v|
+!i113 1
+R10
+R11
+n@s@e@g
+vvDFF
+R0
+!i10b 1
+!s100 Ik6cFDgl6N8k?[j^8V2>g3
+IO^KNRWGWTZXUnlS9oF2BO1
+R1
+R2
+R3
+R4
+R5
+L0 82
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nv@d@f@f
