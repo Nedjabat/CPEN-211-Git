@@ -19,13 +19,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	lab3_top_tb
 
-} {} {}} {E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v} {1 {vlog -work work -stats=none {E:/CPEN 211 Git/LAB3,working/lab3_top_tb_gatelevel.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module lab3_top_tb
-
-Top level modules:
-	lab3_top_tb
-
 } {} {}} {E:/CPEN 211 Git/LAB3,working/FSM.v} {1 {vlog -work work -stats=none {E:/CPEN 211 Git/LAB3,working/FSM.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module FSM

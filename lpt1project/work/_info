@@ -1,0 +1,74 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/CPEN-211/practice
+vq2_tb
+Z0 !s110 1635989046
+!i10b 1
+!s100 X>3jJRMlzh;Sfi<OV27=@3
+IiPLj`CJe[Ch9bz1=ea@EG2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/CPEN-211/CPEN-211-Git/lpt1project
+w1635989045
+8C:/CPEN-211/CPEN-211-Git/lpt1project/q1_tb.v
+FC:/CPEN-211/CPEN-211-Git/lpt1project/q1_tb.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1635989046.000000
+!s107 C:/CPEN-211/CPEN-211-Git/lpt1project/q1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt1project/q1_tb.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtop_module
+R0
+!i10b 1
+!s100 ;o97=NN;hjmWA2_FQXSef1
+IJSNWmM7eRg3K72J]7cZ8V3
+R1
+R2
+Z7 w1635988743
+Z8 8C:/CPEN-211/CPEN-211-Git/lpt1project/q1.v
+Z9 FC:/CPEN-211/CPEN-211-Git/lpt1project/q1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 C:/CPEN-211/CPEN-211-Git/lpt1project/q1.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt1project/q1.v|
+!i113 1
+R5
+R6
+vvDFF
+R0
+!i10b 1
+!s100 05L?l9h1k3:_hzTAH=D>G0
+I<a16DQD]E]iol2L19ib9C1
+R1
+R2
+R7
+R8
+R9
+L0 42
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+nv@d@f@f

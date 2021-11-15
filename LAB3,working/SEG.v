@@ -20,9 +20,9 @@ module SEG(in,state,reset,out0,out1,out2,out3,out4,out5);
 	`define x10 4'b1010
 	`define x11 4'b1011
 	`define x12 4'b1100
-        `define OPEN 4'b1111
-        `define CLOSED 4'b1110
-        `define ERROR 4'b1101
+    `define OPEN 4'b1111
+    `define CLOSED 4'b1110
+    `define ERROR 4'b1101
 
     always @(in) //depends on change on what to display
     begin
