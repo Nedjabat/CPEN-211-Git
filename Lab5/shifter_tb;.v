@@ -34,8 +34,8 @@ module shifter_tb;
 
 		in = 16'b1100000110000011;
 		shift = 2'b11; #5;
-		$display("checking for if in is shifted right with MSB = 1 and is stored in shift out");
-		test(16'b1110000011000001);// Testing shift right with MSB = B[15] part of shifter expecting 1110000011000001
+		$display("checking for if in is shifted right with MSB = in[15] and is stored in shift out");
+		test(16'b1110000011000001);// Testing shift right with MSB = in[15] part of shifter expecting 1110000011000001
 
 
 

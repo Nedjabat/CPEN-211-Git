@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Modelsim
+vALU
+Z0 !s110 1637106556
+!i10b 1
+!s100 DeZWkFc6O5:QL9]G^ZVJK3
+II[gn^n:BcPVSNVbKaD_@a1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/CPEN211Git/Lab5
+w1637103076
+8E:/CPEN211Git/Lab5/ALU.v
+FE:/CPEN211Git/Lab5/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1637106556.000000
+!s107 E:/CPEN211Git/Lab5/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_tb
+!s110 1637104408
+!i10b 1
+!s100 0Q8U<E7hPb`O1eEn^]7Jz0
+IK0a6zV9]mkfL=bKgdljdN1
+R1
+R2
+w1637048609
+8E:/CPEN211Git/Lab5/ALU_tb.v
+FE:/CPEN211Git/Lab5/ALU_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637104408.000000
+!s107 E:/CPEN211Git/Lab5/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/ALU_tb.v|
+!i113 1
+R5
+R6
+n@a@l@u_tb
+vdatapath
+Z7 !s110 1637106557
+!i10b 1
+!s100 GjbHPMLh?:VP:<=chhc;=3
+IdVU[ST8z3BOdmScnHRQZJ3
+R1
+R2
+w1637106545
+8E:/CPEN211Git/Lab5/datapath.v
+FE:/CPEN211Git/Lab5/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/CPEN211Git/Lab5/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/datapath.v|
+!i113 1
+R5
+R6
+vdatapath_tb
+R7
+!i10b 1
+!s100 X_nH=:E=OZD_[WL^_PAH_0
+I?<BOf3Pfi?BKW@=E39CcE3
+R1
+R2
+w1637105069
+8E:/CPEN211Git/Lab5/datapath_tb.v
+FE:/CPEN211Git/Lab5/datapath_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637106557.000000
+!s107 E:/CPEN211Git/Lab5/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/datapath_tb.v|
+!i113 1
+R5
+R6
+vShifter
+!s110 1637103243
+!i10b 1
+!s100 `gTAcQmW<G2hFN?I=nQMa3
+IWbPM4MQTNONF46E5<e7Gj1
+R1
+R2
+w1637020418
+Z8 8E:/CPEN211Git/Lab5/SHIFTER.v
+Z9 FE:/CPEN211Git/Lab5/SHIFTER.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637103243.000000
+Z10 !s107 E:/CPEN211Git/Lab5/SHIFTER.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/SHIFTER.v|
+!i113 1
+R5
+R6
+n@shifter
+vshifter
+R0
+!i10b 1
+!s100 8_nOSGEX9_VZ@Fm0:XC`S2
+IW@4BkOa`4NB_zngdzL3_i0
+R1
+R2
+w1637103901
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vshifter_tb
+!s110 1637104145
+!i10b 1
+!s100 `6b0oHW:<hUKEaVZmVe:20
+I_d=X_9QJ6OE?=TEQG2MBQ3
+R1
+R2
+w1637104105
+8E:/CPEN211Git/Lab5/shifter_tb;.v
+FE:/CPEN211Git/Lab5/shifter_tb;.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637104145.000000
+!s107 E:/CPEN211Git/Lab5/shifter_tb;.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/shifter_tb;.v|
+!i113 1
+R5
+R6

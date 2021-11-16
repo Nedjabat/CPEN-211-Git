@@ -1,4 +1,4 @@
-module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,ALUop,loadc,loads,Z_out,datapath_out);
+module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,ALUop,loadc,loads,Z_out,datapath_out,asel,bsel);
     input [15:0] datapath_in;
     input [2:0] writenum,readnum;
     input[1:0] shift, ALUop;
@@ -7,12 +7,12 @@ module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,AL
     output Z_out;
 
 
-    wire [15:0]data_in, data_out, Ain, Bin, out, datapath_in, datapath_out,next_out_a, next_out_b, next_out_datapath, sout;
+    wire [15:0]data_in, data_out, Ain, Bin, out, datapath_in,next_out_a, next_out_b, next_out_datapath, sout;
     wire [2:0] writenum, readnum;
     wire [1:0] shift, ALUop;
-    wire Z, loada, loadb, asel, bsel, loads, Z_out, loadc, writenum, readnum, Z, write, next_out_z, clk;
+    wire Z, loada, loadb, asel, bsel, vsel, loads, loadc, write, next_out_z, clk;
 
-    reg [15:0] in, aout, datapath_out;
+    reg [15:0] in, a_out, datapath_out;
     reg Z_out;
 
     assign data_in = vsel ? datapath_in : datapath_out;//writeback register 9
@@ -20,12 +20,12 @@ module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,AL
     //regfile instance 1
 
     assign next_out_a = loada ? data_out : a_out;  //pipleine register 3
-    assign next_out_b = loadb ? data_out : b_out;  //pipleine register 4
+    assign next_out_b = loadb ? data_out : in;  //pipleine register 4
 
     always @(posedge clk)
         begin
 	
-	        aout = next_out_a; //Register 3 
+	        a_out = next_out_a; //Register 3 
 	
             end
     always @(posedge clk)
@@ -37,7 +37,7 @@ module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,AL
 
     shifter DUT1(in, shift, sout); //shifter instance 8
 
-    assign Ain = asel ? 16'b0 : aout;//multiplexer 6
+    assign Ain = asel ? 16'b0 : a_out;//multiplexer 6
     assign Bin = bsel ? {11'b0,datapath_in[4:0]} : sout;//multiplexer 7
 
     ALU DUT2(Ain, Bin, ALUop, out, Z); //ALU instance 2 
