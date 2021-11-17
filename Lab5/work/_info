@@ -9,7 +9,7 @@ z2
 cModel Technology
 dE:/Modelsim
 vALU
-Z0 !s110 1637107828
+Z0 !s110 1637109413
 !i10b 1
 !s100 DeZWkFc6O5:QL9]G^ZVJK3
 II[gn^n:BcPVSNVbKaD_@a1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1637107828.000000
+Z4 !s108 1637109413.000000
 !s107 E:/CPEN211Git/Lab5/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/ALU.v|
 !i113 1
@@ -53,7 +53,7 @@ R5
 R6
 n@a@l@u_tb
 vdatapath
-Z7 !s110 1637107829
+R0
 !i10b 1
 !s100 Jc]NLGfWFYCK4a6Ck>H>40
 IO_05zZD?CJFz8oXkmRARP1
@@ -67,20 +67,20 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1637107829.000000
+R4
 !s107 E:/CPEN211Git/Lab5/datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/datapath.v|
 !i113 1
 R5
 R6
 vdatapath_tb
-R7
+R0
 !i10b 1
-!s100 X_nH=:E=OZD_[WL^_PAH_0
-I?<BOf3Pfi?BKW@=E39CcE3
+!s100 `I297:Kf6YPhS5]IcWnij3
+Io=@ieE[8LVORM5U:6n=^`3
 R1
 R2
-w1637105069
+w1637109406
 8E:/CPEN211Git/Lab5/datapath_tb.v
 FE:/CPEN211Git/Lab5/datapath_tb.v
 L0 1
@@ -88,73 +88,73 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 E:/CPEN211Git/Lab5/datapath_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/datapath_tb.v|
 !i113 1
 R5
 R6
 vDec
-R7
+R0
 !i10b 1
 !s100 gWFL>ii`nzi9cSf^Q0fTN1
 IHMeD>0Y066<>TJAB1]bRb3
 R1
 R2
-Z9 w1637107264
-Z10 8E:/CPEN211Git/Lab5/regfile.v
-Z11 FE:/CPEN211Git/Lab5/regfile.v
+Z7 w1637107264
+Z8 8E:/CPEN211Git/Lab5/regfile.v
+Z9 FE:/CPEN211Git/Lab5/regfile.v
 L0 39
 R3
 r1
 !s85 0
 31
-R8
-Z12 !s107 E:/CPEN211Git/Lab5/regfile.v|
-Z13 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/regfile.v|
+R4
+Z10 !s107 E:/CPEN211Git/Lab5/regfile.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/regfile.v|
 !i113 1
 R5
 R6
 n@dec
 vregfile
-R7
+R0
 !i10b 1
 !s100 0Va1oceN`BJh7n`LF1=T:0
 I04R9ibmgnifGkQ6GN?ja_1
 R1
 R2
+R7
+R8
 R9
-R10
-R11
 L0 1
 R3
 r1
 !s85 0
 31
-R8
-R12
-R13
+R4
+R10
+R11
 !i113 1
 R5
 R6
 vregister
-R7
+R0
 !i10b 1
 !s100 7b1=4480CS=CCWj`2@O3X1
 I7eD>3YEYDImP5fjWiC]810
 R1
 R2
+R7
+R8
 R9
-R10
-R11
 L0 47
 R3
 r1
 !s85 0
 31
-R8
-R12
-R13
+R4
+R10
+R11
 !i113 1
 R5
 R6
@@ -166,16 +166,16 @@ IW@4BkOa`4NB_zngdzL3_i0
 R1
 R2
 w1637103901
-Z14 8E:/CPEN211Git/Lab5/SHIFTER.v
-Z15 FE:/CPEN211Git/Lab5/SHIFTER.v
+Z12 8E:/CPEN211Git/Lab5/SHIFTER.v
+Z13 FE:/CPEN211Git/Lab5/SHIFTER.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-Z16 !s107 E:/CPEN211Git/Lab5/SHIFTER.v|
-Z17 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/SHIFTER.v|
+Z14 !s107 E:/CPEN211Git/Lab5/SHIFTER.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab5/SHIFTER.v|
 !i113 1
 R5
 R6
@@ -187,16 +187,16 @@ IWbPM4MQTNONF46E5<e7Gj1
 R1
 R2
 w1637020418
-R14
-R15
+R12
+R13
 L0 1
 R3
 r1
 !s85 0
 31
 !s108 1637103243.000000
-R16
-R17
+R14
+R15
 !i113 1
 R5
 R6

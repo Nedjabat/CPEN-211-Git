@@ -48,12 +48,12 @@ initial begin
     readnum = 3'b001; //read from R1 
     loada = 1; 
     #10; 
-    loada = 0;
+   // loada = 0;
 
     readnum = 3'b000; //read from R0 and shift left by 1
     loadb = 1;
     #10;
-    loadb = 0;
+  //  loadb = 0;
     shift = 2'b01;
 
 
@@ -65,7 +65,7 @@ initial begin
     loads = 1;
     #10;
 
-    loadc = 0;
+  //  loadc = 0;
     vsel =0;
     write = 1;
     writenum = 3'b010; //store result in R2
