@@ -7,7 +7,7 @@ module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,AL
     output Z_out;
 
 
-    wire [15:0]data_in, data_out, Ain, Bin, out, datapath_in,next_out_a, next_out_b, next_out_datapath, sout;
+    wire [15:0]data_in, data_out, Ain, Bin, out, datapath_in,next_out_a, next_out_b, next_datapath_out, sout;
     wire [2:0] writenum, readnum;
     wire [1:0] shift, ALUop;
     wire Z, loada, loadb, asel, bsel, vsel, loads, loadc, write, next_out_z, clk;
@@ -17,7 +17,7 @@ module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,AL
 
     assign data_in = vsel ? datapath_in : datapath_out;//writeback register 9
 
-    //regfile instance 1
+    regfile DUT3(data_in,writenum,write,readnum,clk,data_out);
 
     assign next_out_a = loada ? data_out : a_out;  //pipleine register 3
     assign next_out_b = loadb ? data_out : in;  //pipleine register 4
@@ -42,12 +42,12 @@ module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,AL
 
     ALU DUT2(Ain, Bin, ALUop, out, Z); //ALU instance 2 
 
-    assign next_datapath_out = loadc ? out : datapath_out; // pipeline register 5
+    assign next_datapath_out = loadc ?  out : datapath_out; // pipeline register 5
     assign next_out_z = loads ? Z : Z_out; //status register 10
 
     always@(posedge clk)
         begin
-	        datapath_out = next_out_datapath;//Register 5
+	        datapath_out = next_datapath_out;//Register 5
         end
     always @(posedge clk)
         begin
