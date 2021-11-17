@@ -7,7 +7,7 @@ module datapath_tb;
     reg [2:0] writenum, readnum;
     reg [1:0] shift, ALUop;
 
-datapath DUT(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,ALUop,loadc,loads,Z_out,datapath_out,asel,bsel); //instantiate datapath
+datapath DUT(clk,readnum,vsel,loada,loadb,shift,asel,bsel,ALUop,loadc,loads,writenum,write,datapath_in,Z_out,datapath_out); //instantiate datapath
 
 reg err=0; 
 

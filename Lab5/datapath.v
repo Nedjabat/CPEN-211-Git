@@ -1,4 +1,4 @@
-module datapath(datapath_in,vsel,writenum,write,readnum,clk,loada,loadb,shift,ALUop,loadc,loads,Z_out,datapath_out,asel,bsel);
+module datapath(clk,readnum,vsel,loada,loadb,shift,asel,bsel,ALUop,loadc,loads,writenum,write,datapath_in,Z_out,datapath_out);
     input [15:0] datapath_in;
     input [2:0] writenum,readnum;
     input[1:0] shift, ALUop;
