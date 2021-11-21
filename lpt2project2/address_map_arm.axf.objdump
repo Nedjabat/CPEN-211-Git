@@ -1,0 +1,43 @@
+
+C:/CPEN-211/CPEN-211-Git/lpt2project2/address_map_arm.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+   0:	e3a00002 	mov	r0, #2
+   4:	e59f1058 	ldr	r1, [pc, #88]	; 64 <output+0x8>
+   8:	e59f2058 	ldr	r2, [pc, #88]	; 68 <output+0xc>
+   c:	e3a03000 	mov	r3, #0
+  10:	e3a04001 	mov	r4, #1
+  14:	eb000000 	bl	1c <loopy>
+
+00000018 <END>:
+  18:	eafffffe 	b	18 <END>
+
+0000001c <loopy>:
+  1c:	e3a05000 	mov	r5, #0
+  20:	e3a06000 	mov	r6, #0
+  24:	e1500006 	cmp	r0, r6
+  28:	caffffff 	bgt	2c <while>
+
+0000002c <while>:
+  2c:	e7917106 	ldr	r7, [r1, r6, lsl #2]
+  30:	e1530007 	cmp	r3, r7
+  34:	c0437007 	subgt	r7, r3, r7
+  38:	e7827106 	str	r7, [r2, r6, lsl #2]
+  3c:	e0855007 	add	r5, r5, r7
+  40:	e2866001 	add	r6, r6, #1
+  44:	e1500006 	cmp	r0, r6
+  48:	cafffff7 	bgt	2c <while>
+  4c:	e1a00005 	mov	r0, r5
+  50:	e1a0f00e 	mov	pc, lr
+
+00000054 <input>:
+  54:	ffffffff 	.word	0xffffffff
+  58:	00000001 	.word	0x00000001
+
+0000005c <output>:
+	...
+  64:	00000054 	.word	0x00000054
+  68:	0000005c 	.word	0x0000005c
