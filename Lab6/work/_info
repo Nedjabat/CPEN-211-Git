@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/CPEN-211/CPEN-211-Git/lpt1project
+vALU
+Z0 !s110 1637460877
+!i10b 1
+!s100 EfjhQ]k46WG5[jTAS=3?e0
+I4fP5C6?kNWf`of:F]:G9E2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/CPEN-211/CPEN-211-Git/Lab6
+w1637460637
+8C:/CPEN-211/CPEN-211-Git/Lab6/alu.v
+FC:/CPEN-211/CPEN-211-Git/Lab6/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1637460877.000000
+!s107 C:/CPEN-211/CPEN-211-Git/Lab6/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/Lab6/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vcpu
+R0
+!i10b 1
+!s100 =fMRC>3mM;mXU5nQz1T_i0
+Ii:N>2HQj5XZeIFJD8Z4oQ1
+R1
+R2
+w1637460684
+8C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v
+FC:/CPEN-211/CPEN-211-Git/Lab6/CPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v|
+!i113 1
+R5
+R6
+vdatapath
+R0
+!i10b 1
+!s100 mNVUPh>IB6_bClYPj6^>51
+IJK9fk96R5@_N4R>RZ]TJ_3
+R1
+R2
+w1637460873
+8C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v
+FC:/CPEN-211/CPEN-211-Git/Lab6/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v|
+!i113 1
+R5
+R6
+vdecoder
+R0
+!i10b 1
+!s100 38C_a57hV06`mPPVAGYAK0
+IIIe?XFfaa4E_j0JV;K?3k3
+R1
+R2
+w1637460375
+8C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v
+FC:/CPEN-211/CPEN-211-Git/Lab6/decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v|
+!i113 1
+R5
+R6
+vmux3to1
+R0
+!i10b 1
+!s100 Thc6@<zP_KNeNceGCJ6063
+I8ORj4@2XV_`WRHk7V8HE;3
+R1
+R2
+w1637460238
+8C:/CPEN-211/CPEN-211-Git/Lab6/mux3to1.v
+FC:/CPEN-211/CPEN-211-Git/Lab6/mux3to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/CPEN-211/CPEN-211-Git/Lab6/mux3to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/Lab6/mux3to1.v|
+!i113 1
+R5
+R6
+vmux4to1
+!s110 1637460876
+!i10b 1
+!s100 F2U[MPi8IF0`G:Bj<:VCl0
+I0J1Dei[cmLkI9D0jI`BRg2
+R1
+R2
+w1637460239
+8C:/CPEN-211/CPEN-211-Git/Lab6/mux4to1.v
+FC:/CPEN-211/CPEN-211-Git/Lab6/mux4to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637460876.000000
+!s107 C:/CPEN-211/CPEN-211-Git/Lab6/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/Lab6/mux4to1.v|
+!i113 1
+R5
+R6
