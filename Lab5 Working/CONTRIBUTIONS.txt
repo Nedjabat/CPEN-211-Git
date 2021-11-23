@@ -1,0 +1,7 @@
+Ryan Nedjabat
+- Worked on ALU, Shifter, and Datapath
+
+Louise Baldry 
+- Worked on testbenchs, register, and altera board implentation
+
+Together worked on respective testbenchs

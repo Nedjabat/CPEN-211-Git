@@ -1,0 +1,438 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vALU
+Z0 !s110 1637115375
+!i10b 1
+!s100 DeZWkFc6O5:QL9]G^ZVJK3
+I>TJSFfFe8Jb6jhXTOlnhQ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5
+w1637108509
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1637115375.000000
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R0
+!i10b 1
+!s100 0Q8U<E7hPb`O1eEn^]7Jz0
+INWH:MMJn:C]ZSYDOdH]]f1
+R1
+R2
+w1637094957
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu_tb.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/alu_tb.v|
+!i113 1
+R5
+R6
+n@a@l@u_tb
+vdatapath
+R0
+!i10b 1
+!s100 IAg>a=^df2@=MbO_]?8Rd3
+I^ciQV=4O?Vbce5D98`JPf3
+R1
+R2
+w1637114167
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath.v|
+!i113 1
+R5
+R6
+vdatapath_tb
+R0
+!i10b 1
+!s100 HP9IZJ]cf]b0jC``c_cgA2
+IbkSa7@IUCL<Q0Jj9hg;z81
+R1
+R2
+w1637115372
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath_tb.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/datapath_tb.v|
+!i113 1
+R5
+R6
+vdatapath_tb_pt2
+!s110 1637099443
+!i10b 1
+!s100 cDVYJkkf9mFJdVzgPihgM1
+I7:G=A1:]VYeUX;g6KjI2e1
+R1
+Z7 dC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5
+w1637099440
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/datapath_tb_pt2.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/datapath_tb_pt2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637099443.000000
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/datapath_tb_pt2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/datapath_tb_pt2.v|
+!i113 1
+R5
+R6
+vDec
+Z8 !s110 1637115376
+!i10b 1
+!s100 gWFL>ii`nzi9cSf^Q0fTN1
+Id?UW2RgUKW5zJl1[1l?>n0
+R1
+R2
+Z9 w1637095328
+Z10 8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile.v
+Z11 FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+Z12 !s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile.v|
+!i113 1
+R5
+R6
+n@dec
+vDec1
+Z14 !s110 1637014399
+!i10b 1
+!s100 a4zN[Y^zV0^2V543Lb:m52
+Ib4S3S>UVa6SkLhlo4RE7Y0
+R1
+R7
+Z15 w1637014393
+Z16 8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/regfile.v
+Z17 FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/regfile.v
+L0 131
+R3
+r1
+!s85 0
+31
+Z18 !s108 1637014399.000000
+Z19 !s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/regfile.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab5/regfile.v|
+!i113 1
+R5
+R6
+n@dec1
+vinput_iface
+R8
+!i10b 1
+!s100 9=VLblSjgG9jVglRfIOhH2
+IHZTlK;;jLD8iDIcZS[Ih`1
+R1
+R2
+Z21 w1637110830
+Z22 8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/lab5_top.v
+Z23 FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/lab5_top.v
+L0 109
+R3
+r1
+!s85 0
+31
+Z24 !s108 1637115376.000000
+Z25 !s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/lab5_top.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/lab5_top.v|
+!i113 1
+R5
+R6
+vlab5_top
+R8
+!i10b 1
+!s100 AIV0M5ZV1AhcPcf@?HTFj3
+IR=cGL<SC<oR;FzaWk6iLM2
+R1
+R2
+R21
+R22
+R23
+L0 57
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R5
+R6
+vMux1
+R14
+!i10b 1
+!s100 VC71FLJ_3G^WFa`VI_zPA0
+IZ>FB1=ClWZD6TchWXiN2:0
+R1
+R7
+R15
+R16
+R17
+L0 155
+R3
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R5
+R6
+n@mux1
+vmux8
+!s110 1636850663
+!i10b 1
+!s100 S@FDUmVMcU:5A@<Ce03]?3
+IiM5:39aQ[OZlMkAho2<Ak3
+R1
+R7
+w1636850659
+R16
+R17
+L0 61
+R3
+r1
+!s85 0
+31
+!s108 1636850663.000000
+R19
+R20
+!i113 1
+R5
+R6
+vReg1
+R14
+!i10b 1
+!s100 A>dPQ0]0Si:m8naXgXYBb2
+I7ZMTWJhH[8^Q8j<;=>Wcd3
+R1
+R7
+R15
+R16
+R17
+L0 141
+R3
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R5
+R6
+n@reg1
+vregfile
+R8
+!i10b 1
+!s100 0Va1oceN`BJh7n`LF1=T:0
+I@m<7VB4Fkc86dVYnEk6cI2
+R1
+R2
+R9
+R10
+R11
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R12
+R13
+!i113 1
+R5
+R6
+vregfile_tb
+R8
+!i10b 1
+!s100 amDzaVOi1USd8X6MViADJ0
+ID@O=WHZ@abe]A4fNJJKlO0
+R1
+R2
+w1637108454
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile_tb;.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile_tb;.v
+L0 1
+R3
+r1
+!s85 0
+31
+R24
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile_tb;.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/regfile_tb;.v|
+!i113 1
+R5
+R6
+vregister
+R8
+!i10b 1
+!s100 7b1=4480CS=CCWj`2@O3X1
+I^Y1P:L1XUU;Q3dN6ZKBmY0
+R1
+R2
+R9
+R10
+R11
+L0 47
+R3
+r1
+!s85 0
+31
+R4
+R12
+R13
+!i113 1
+R5
+R6
+vShifter
+!s110 1637091435
+!i10b 1
+!s100 `gTAcQmW<G2hFN?I=nQMa3
+IRn<hAFfAT]DXJYPA;FIGR0
+R1
+R7
+w1637037600
+8C:/Users/Louise Baldry/Downloads/SHIFTER (1).v
+FC:/Users/Louise Baldry/Downloads/SHIFTER (1).v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1637091435.000000
+!s107 C:/Users/Louise Baldry/Downloads/SHIFTER (1).v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Louise Baldry/Downloads/SHIFTER (1).v|
+!i113 1
+R5
+R6
+n@shifter
+vshifter
+R8
+!i10b 1
+!s100 8_nOSGEX9_VZ@Fm0:XC`S2
+ICV5?Rhe[c;E_E0^odcA>B2
+R1
+R2
+w1637108342
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R24
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter.v|
+!i113 1
+R5
+R6
+vshifter_tb
+R0
+!i10b 1
+!s100 [XKbo0eBKWgJlF4M>Zo5U3
+I>4:Ui`DecHofF@3XcU:070
+R1
+R2
+w1637091432
+8C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter_tb.v
+FC:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/uni/3rd year/CPEN 211 take 2/labs except for lab 3/lab 5/shifter_tb.v|
+!i113 1
+R5
+R6
+vsseg
+R8
+!i10b 1
+!s100 gjeDOl4BD071JNzlYdKEM0
+I1PoBlD<0_=`jVJFU2JgM40
+R1
+R2
+R21
+R22
+R23
+L0 167
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R5
+R6
+vvDFF
+R8
+!i10b 1
+!s100 @H=HKBFWk`NIEL2fGUK?B0
+ISEAYkT2VJF[]n_h2FP@gO0
+R1
+R2
+R21
+R22
+R23
+L0 148
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R5
+R6
+nv@d@f@f
