@@ -1,7 +1,7 @@
-module datapath(clk,N,V,Z,datapath_in,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,writenum,shift,ALUop,datapath_out,sximm5,sximm8);
+module datapath(clk,N,V,Z,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,writenum,shift,ALUop,datapath_out,sximm5,sximm8);
   
 
-    input [15:0] datapath_in, sximm5,sximm8;
+    input [15:0] sximm5,sximm8;
     input [2:0] writenum,readnum;
     input[1:0] shift, ALUop,vsel;
     input write, clk, loada, loadb, loadc, loads, asel, bsel;
@@ -9,7 +9,7 @@ module datapath(clk,N,V,Z,datapath_in,write,vsel,loada,loadb,asel,bsel,loadc,loa
     output N,V,Z;
 
     wire [7:0] PC;
-    wire [15:0]data_in, data_out, Ain, Bin, out, datapath_in,next_out_a, next_out_b, next_datapath_out, sout, mdata, sximm5, sximm8;
+    wire [15:0]data_in, data_out, Ain, Bin, out,next_out_a, next_out_b, next_datapath_out, sout, mdata, sximm5, sximm8;
     wire [2:0] writenum, readnum, status, next_out_z;
     wire [1:0] shift, ALUop, vsel;
     wire loada, loadb, asel, bsel, loads, loadc, write, clk;

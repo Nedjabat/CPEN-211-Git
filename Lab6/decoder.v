@@ -12,6 +12,6 @@ module decoder(in,nsel,ALUop,sximm5,sximm8,shift,readnum,writenum,opcode,op);
     assign sximm5 = {11'b0,in[4:0]};
     assign sximm8 = {8'b0,in[7:0]};
     assign shift = in[4:3];
-    mux3to1 #(3) readwrite(in[2:0],in[7:5],in[10:8],nsel,readnum);
-    assign readnum = writenum;
+    mux3to1 #(3) reader(in[2:0],in[7:5],in[10:8],nsel,readnum);
+    mux3to1 #(3) writer(in[2:0],in[7:5],in[10:8],nsel,writenum);
 endmodule

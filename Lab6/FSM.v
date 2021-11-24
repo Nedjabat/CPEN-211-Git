@@ -3,11 +3,10 @@ input reset, s,clk;
 input [1:0] op;
 input [2:0] opcode;
 output reg w, loada,loadb,loadc,asel,bsel,write,loads;
-output reg [2:0] nsel;
-output reg [3:0] vsel;
+output reg [1:0] nsel;
+output reg [1:0] vsel;
 
 wire [3:0]  next_state_reset; 
-wire reset;
 reg [3:0] state;
 reg [3:0] next_state;
 
@@ -55,17 +54,17 @@ end
 
 always @* begin       //output case statement
     casex(state)
-        `Wait       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b1_0_0_0_0000_0_0_000_0_0;
-        `Decode     : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_0000_0_0_000_0_0;
-        `WriteImm   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_0000_0_0_100_0_1;
-        `GetA       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_1_0_0_0000_0_0_001_0_0;
-        `GetB       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_1_0_0000_0_0_010_0_0;
-        `ADD        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_0000_0_0_000_0_0;
-        `WriteReg   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_0001_0_0_100_0_1;
-        `C          : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_0000_0_0_000_0_0;
-        `MVN        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_0000_0_0_000_0_0; 
-        `CMP        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_0000_0_0_000_1_0;
-        `AND        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_0000_0_0_000_0_0;
+        `Wait       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b1_0_0_0_00_0_0_00_0_0;
+        `Decode     : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_0_0;
+        `WriteImm   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_10_0_1;
+        `GetA       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_1_0_0_00_0_0_00_0_0;
+        `GetB       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_1_0_00_0_0_01_0_0;
+        `ADD        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_00_0_0;
+        `WriteReg   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_01_0_0_10_0_1;
+        `C          : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_00_0_0;
+        `MVN        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_0_0; 
+        `CMP        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_1_0;
+        `AND        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_0_0;
         default     : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'bxxxxxxxxxxxxxxx;
     endcase 
 end

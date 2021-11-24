@@ -15,6 +15,7 @@ reg clk,s,reset;
 reg [3:0] state;
 reg [1:0] op;
 reg [2:0] opcode;
+wire [1:0] nsel, vsel;
 FSM DUT(reset,w,loads, s,op, opcode,clk,loada,loadb,loadc,asel,bsel,vsel,write,nsel);
 
 reg err;
