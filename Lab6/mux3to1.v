@@ -9,6 +9,7 @@ module mux3to1 (a,b,c,sel,out);
         2'b01 : out = b;
         2'b10 : out = c;
         2'bxx : out = 0;
+        endcase
     end
     //assign out = sel[1] ? (sel[0] ? 0 : c) : (sel[0] ? b : a);
 endmodule
