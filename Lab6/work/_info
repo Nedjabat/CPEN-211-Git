@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/CPEN-211/CPEN-211-Git/lpt1project
 vALU
-Z0 !s110 1637725895
+Z0 !s110 1637729375
 !i10b 1
 !s100 EfjhQ]k46WG5[jTAS=3?e0
 IN09P8ckHP@ZfY?9dP;Z1F0
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1637725894.000000
+Z5 !s108 1637729375.000000
 !s107 E:/CPEN211Git/Lab6/alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/alu.v|
 !i113 1
@@ -55,11 +55,11 @@ n@a@l@u_tb
 vcpu
 R0
 !i10b 1
-!s100 Mz5a^XR:B15M?@dAme4oY0
-INWFUJ2cE;oLVb@[bPXo5O3
+!s100 eieb0HP<0]C@UDjTFXPDG3
+IYW:z8b3W[<6Hge6W9R:_82
 R1
 R2
-w1637725758
+w1637727867
 8E:/CPEN211Git/Lab6/CPU.v
 FE:/CPEN211Git/Lab6/CPU.v
 L0 1
@@ -67,20 +67,20 @@ R4
 r1
 !s85 0
 31
-Z8 !s108 1637725895.000000
+R5
 !s107 E:/CPEN211Git/Lab6/CPU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/CPU.v|
 !i113 1
 R6
 R7
 vCPU_tb
-!s110 1637725898
+!s110 1637727074
 !i10b 1
-!s100 _8>1a8a3:ZjR:cZQm7PKm3
-I7l[K`[c?894z5[RV]a_dI1
+!s100 QIn^49JAGDkHjD43@?<[`1
+IlXMkdfed4cjMS=ElZCPV92
 R1
 R2
-w1637725618
+w1637727000
 8E:/CPEN211Git/Lab6/CPU_tb.v
 FE:/CPEN211Git/Lab6/CPU_tb.v
 L0 1
@@ -88,7 +88,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1637725897.000000
+!s108 1637727074.000000
 !s107 E:/CPEN211Git/Lab6/CPU_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/CPU_tb.v|
 !i113 1
@@ -98,11 +98,11 @@ n@c@p@u_tb
 vdatapath
 R0
 !i10b 1
-!s100 CjamLU^[gcG8h@:1WB0S:3
-IQViIECnY5dlW`fCNo:G`I1
+!s100 Y6K6_]_a4Ml_Y@hLNa71M2
+IKio7GKiQG8RHaG3OSBIf80
 R1
 R2
-w1637725719
+w1637728507
 8E:/CPEN211Git/Lab6/datapath.v
 FE:/CPEN211Git/Lab6/datapath.v
 L0 1
@@ -110,7 +110,7 @@ R4
 r1
 !s85 0
 31
-R8
+R5
 !s107 E:/CPEN211Git/Lab6/datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/datapath.v|
 !i113 1
@@ -138,29 +138,29 @@ r1
 R6
 R7
 vDec
-Z10 !s110 1637725894
+R0
 !i10b 1
 !s100 gWFL>ii`nzi9cSf^Q0fTN1
 IYgzXoD_i[DHg]48<l[SmA0
 R1
 R2
-Z11 w1637095330
-Z12 8E:/CPEN211Git/Lab6/regfile.v
-Z13 FE:/CPEN211Git/Lab6/regfile.v
+Z8 w1637095330
+Z9 8E:/CPEN211Git/Lab6/regfile.v
+Z10 FE:/CPEN211Git/Lab6/regfile.v
 L0 39
 R4
 r1
 !s85 0
 31
-R5
-Z14 !s107 E:/CPEN211Git/Lab6/regfile.v|
-Z15 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/regfile.v|
+Z11 !s108 1637729374.000000
+Z12 !s107 E:/CPEN211Git/Lab6/regfile.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/regfile.v|
 !i113 1
 R6
 R7
 n@dec
 vdecoder
-Z16 !s110 1637725897
+R0
 !i10b 1
 !s100 onaUJ`OoUX=F>G1oT9J7=3
 IaOjamQiWXigL3QEROoP5G1
@@ -174,20 +174,20 @@ R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 E:/CPEN211Git/Lab6/decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/decoder.v|
 !i113 1
 R6
 R7
 vFSM
-R16
+!s110 1637729376
 !i10b 1
-!s100 XTYbSGKhj7i]9z_dRW01Z0
-IW5j2`2?8L2BKNDDQP6lzF2
+!s100 `h;MlIL=9iA2Qca4iJ1WN3
+I8fUePFbf7WcfzTT:e;ZeR0
 R1
 R2
-w1637724007
+w1637729370
 8E:/CPEN211Git/Lab6/FSM.v
 FE:/CPEN211Git/Lab6/FSM.v
 L0 1
@@ -195,7 +195,7 @@ R4
 r1
 !s85 0
 31
-R9
+!s108 1637729376.000000
 !s107 E:/CPEN211Git/Lab6/FSM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/FSM.v|
 !i113 1
@@ -223,8 +223,29 @@ r1
 !i113 1
 R6
 R7
+vlab6_check
+!s110 1637729377
+!i10b 1
+!s100 XQ?:fH]AIB<YHP:>PITVS1
+IV]?n[?k3liBhUKM7]T6gb3
+R1
+R2
+w1637727130
+8E:/CPEN211Git/Lab6/lab6_autograder_check.v
+FE:/CPEN211Git/Lab6/lab6_autograder_check.v
+L0 11
+R4
+r1
+!s85 0
+31
+!s108 1637729377.000000
+!s107 E:/CPEN211Git/Lab6/lab6_autograder_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/lab6_autograder_check.v|
+!i113 1
+R6
+R7
 vmux3to1
-R10
+Z14 !s110 1637729374
 !i10b 1
 !s100 Thc6@<zP_KNeNceGCJ6063
 IOLoP[OXbL@mDQ4MPB3g0=3
@@ -238,14 +259,14 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 E:/CPEN211Git/Lab6/mux3to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/mux3to1.v|
 !i113 1
 R6
 R7
 vmux4to1
-R10
+R14
 !i10b 1
 !s100 F2U[MPi8IF0`G:Bj<:VCl0
 I;@A[9z;ZnKX;MHBR8LJ4c0
@@ -259,56 +280,56 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 E:/CPEN211Git/Lab6/mux4to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab6/mux4to1.v|
 !i113 1
 R6
 R7
 vregfile
-R10
+R0
 !i10b 1
 !s100 0Va1oceN`BJh7n`LF1=T:0
 IKPP9RD[CA1A7;fYCc:a;K3
 R1
 R2
-R11
-R12
-R13
+R8
+R9
+R10
 L0 1
 R4
 r1
 !s85 0
 31
-R5
-R14
-R15
+R11
+R12
+R13
 !i113 1
 R6
 R7
 vregister
-R10
+R0
 !i10b 1
 !s100 7b1=4480CS=CCWj`2@O3X1
 IlzZ2jR7>_Gi`deo^zm^:Z0
 R1
 R2
-R11
-R12
-R13
+R8
+R9
+R10
 L0 47
 R4
 r1
 !s85 0
 31
-R5
-R14
-R15
+R11
+R12
+R13
 !i113 1
 R6
 R7
 vshifter
-R10
+R0
 !i10b 1
 !s100 8_nOSGEX9_VZ@Fm0:XC`S2
 IHz>AE[nT_iLO;4<SQBj0=3

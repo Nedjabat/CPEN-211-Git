@@ -30,11 +30,11 @@ module CPU_tb;
     end
     initial begin
     reset = 0;
-    s = 1;
-    in = 16'b0000000000000001;
-    load = 0;
-    #20
+    s = 0;
+    in = 16'b1010000000000001;
     load = 1;
+    #5;
+    s = 1;
     #200
     my_checker(16'b1000000000000100);
     $stop;

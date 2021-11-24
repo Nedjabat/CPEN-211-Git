@@ -13,7 +13,6 @@ module datapath(clk,N,V,Z,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,w
     wire [2:0] writenum, readnum, status, next_out_z;
     wire [1:0] shift, ALUop, vsel;
     wire loada, loadb, asel, bsel, loads, loadc, write, clk;
-
     reg [15:0] in, a_out, datapath_out;
     reg [2:0]  Z_out;
     reg N,V,Z;
@@ -22,7 +21,7 @@ module datapath(clk,N,V,Z,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,w
     assign mdata = 0;
     mux4to1 #(16) intl(mdata,sximm8,{8'b0,PC},datapath_out,vsel,data_in);
 
-    regfile DUT3(data_in,writenum,write,readnum,clk,data_out);
+    regfile REGFILE(data_in,writenum,write,readnum,clk,data_out);
 
     assign next_out_a = loada ? data_out : a_out;  //pipleine register 3
     assign next_out_b = loadb ? data_out : in;  //pipleine register 4

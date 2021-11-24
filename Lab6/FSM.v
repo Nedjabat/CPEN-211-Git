@@ -56,7 +56,7 @@ always @* begin       //output case statement
     casex(state)
         `Wait       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b1_0_0_0_00_0_0_00_0_0;
         `Decode     : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_0_0;
-        `WriteImm   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_10_0_1;
+        `WriteImm   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_01_0_0_10_0_1;
         `GetA       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_1_0_0_00_0_0_00_0_0;
         `GetB       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_1_0_00_0_0_01_0_0;
         `ADD        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_00_0_0;
