@@ -5,7 +5,9 @@ module cpu(clk,reset,s,load,in,out,N,V,Z,w);
     output N, V, Z, w;
     reg [15:0]  in_out;
     wire [15:0] in, next_out_in;
-    wire load;
+    wire [2:0] opcode;
+    wire [1:0] op, vsel, nsel;
+    wire load, loads, reset, w, s, clk, loada, loadb, loadc, asel, bsel, write;
 
     assign next_out_in = load ? in : in_out;  
 
@@ -17,7 +19,7 @@ module cpu(clk,reset,s,load,in,out,N,V,Z,w);
     end
 
     decoder dec(in,nsel,ALUop,sximm5,sximm8,shift,readnum,writenum,opcode,op);
-
+    FSM machine(reset,w,loads,s,op, opcode,clk,loada,loadb,loadc,asel,bsel,vsel,write,nsel);
     datapath data(clk,N,V,Z,datapath_in,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,writenum,shift,ALUop,out,sximm5,sximm8);
 endmodule
   

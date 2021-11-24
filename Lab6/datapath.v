@@ -3,16 +3,16 @@ module datapath(clk,N,V,Z,datapath_in,write,vsel,loada,loadb,asel,bsel,loadc,loa
 
     input [15:0] datapath_in, sximm5,sximm8;
     input [2:0] writenum,readnum;
-    input[1:0] shift, ALUop;
-    input write, clk, loada, loadb, loadc, loads, asel, bsel, vsel;
+    input[1:0] shift, ALUop,vsel;
+    input write, clk, loada, loadb, loadc, loads, asel, bsel;
     output [15:0] datapath_out;
     output N,V,Z;
 
     wire [7:0] PC;
     wire [15:0]data_in, data_out, Ain, Bin, out, datapath_in,next_out_a, next_out_b, next_datapath_out, sout, mdata, sximm5, sximm8;
     wire [2:0] writenum, readnum, status, next_out_z;
-    wire [1:0] shift, ALUop;
-    wire loada, loadb, asel, bsel, vsel, loads, loadc, write, clk;
+    wire [1:0] shift, ALUop, vsel;
+    wire loada, loadb, asel, bsel, loads, loadc, write, clk;
 
     reg [15:0] in, a_out, datapath_out;
     reg [2:0]  Z_out;
@@ -20,7 +20,7 @@ module datapath(clk,N,V,Z,datapath_in,write,vsel,loada,loadb,asel,bsel,loadc,loa
 
     assign PC = 0;
     assign mdata = 0;
-    mux4to1 #(16) intl(mdata,sximm8,{8'b0,PC},C);
+    mux4to1 #(16) intl(mdata,sximm8,{8'b0,PC},datapath_out,vsel,data_in);
 
     regfile DUT3(data_in,writenum,write,readnum,clk,data_out);
 

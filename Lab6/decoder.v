@@ -1,6 +1,6 @@
 module decoder(in,nsel,ALUop,sximm5,sximm8,shift,readnum,writenum,opcode,op);
     input [15:0] in;
-    input [2:0] nsel;
+    input [1:0] nsel;
     output [15:0] sximm5, sximm8;
     output [2:0] readnum,writenum,opcode;
     output [1:0] ALUop,shift,op;
