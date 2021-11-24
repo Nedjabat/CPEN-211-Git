@@ -57,10 +57,10 @@ always @* begin       //output case statement
         `Wait       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b1_0_0_0_00_0_0_00_0_0;
         `Decode     : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_0_0;
         `WriteImm   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_01_0_0_10_0_1;
-        `GetA       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_1_0_0_00_0_0_00_0_0;
-        `GetB       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_1_0_00_0_0_01_0_0;
+        `GetA       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_1_0_0_00_0_0_10_0_0;
+        `GetB       : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_1_0_00_0_0_00_0_0;
         `ADD        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_00_0_0;
-        `WriteReg   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_01_0_0_10_0_1;
+        `WriteReg   : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_11_0_0_01_0_1;
         `C          : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_1_00_0_0_00_0_0;
         `MVN        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_0_0; 
         `CMP        : {w,loada,loadb,loadc,vsel,asel,bsel,nsel,loads,write} = 15'b0_0_0_0_00_0_0_00_1_0;

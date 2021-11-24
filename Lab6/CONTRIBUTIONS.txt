@@ -1,0 +1,7 @@
+Partner 1:
+-datapath modifications
+-instruction register
+-instruction decoder
+
+Partner 2:
+-FSM

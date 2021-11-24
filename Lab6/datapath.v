@@ -59,14 +59,14 @@ module datapath(clk,N,V,Z,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,w
         end	
     always @(posedge clk)
         begin
-            N = Z_out[1];//Register 10
+            N = status[1];//Register 10
         end	
     always @(posedge clk)
         begin
-            V = Z_out[2];//Register 10
+            V = status[2];//Register 10
         end
     always @(posedge clk)
         begin
-            Z = Z_out[0];//Register 10
+            Z = status[0];//Register 10
         end
 endmodule
