@@ -36,7 +36,7 @@ module ALU(Ain,Bin,ALUop,out,z);
             z[1] = 1'b0;
         end
     end
-
+endmodule
 
 
 module AddSub(a,b,sub,s,ovf) ;
