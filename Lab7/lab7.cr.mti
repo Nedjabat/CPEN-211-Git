@@ -1,0 +1,74 @@
+E:/CPEN211Git/Lab7/CPU.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/CPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} E:/CPEN211Git/Lab7/shifter.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} E:/CPEN211Git/Lab7/mux3to1.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/mux3to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux3to1
+
+Top level modules:
+	mux3to1
+
+} {} {}} E:/CPEN211Git/Lab7/alu.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+-- Compiling module AddSub
+
+Top level modules:
+	ALU
+
+} {} {}} E:/CPEN211Git/Lab7/regfile.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/regfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regfile
+-- Compiling module Dec
+-- Compiling module register
+
+Top level modules:
+	regfile
+
+} {} {}} E:/CPEN211Git/Lab7/mux4to1.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} E:/CPEN211Git/Lab7/FSM.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/FSM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FSM
+
+Top level modules:
+	FSM
+
+} {} {}} E:/CPEN211Git/Lab7/decoder.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} E:/CPEN211Git/Lab7/lab6_autograder_check.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/lab6_autograder_check.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab6_check
+
+Top level modules:
+	lab6_check
+
+} {} {}} E:/CPEN211Git/Lab7/datapath.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

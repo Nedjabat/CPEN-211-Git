@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Downloads
+vAddSub
+Z0 !s110 1638060214
+!i10b 1
+!s100 OmaR6]4QMFoY;_LTMdBm40
+IhH]lMg5Z=EE`X1UBLE?WB2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/CPEN211Git/Lab7
+Z3 w1638060155
+Z4 8E:/CPEN211Git/Lab7/alu.v
+Z5 FE:/CPEN211Git/Lab7/alu.v
+L0 42
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1638060214.000000
+Z8 !s107 E:/CPEN211Git/Lab7/alu.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/alu.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@add@sub
+vALU
+R0
+!i10b 1
+!s100 ^bzHozBT@HG5S>RdFAB[63
+Igh>IXB@eC@QVI2[TB3k]L3
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@u
+vcpu
+Z12 !s110 1638060213
+!i10b 1
+!s100 eieb0HP<0]C@UDjTFXPDG3
+IaJJaZQIdo]WGknh6R48l22
+R1
+R2
+w1637727867
+8E:/CPEN211Git/Lab7/CPU.v
+FE:/CPEN211Git/Lab7/CPU.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z13 !s108 1638060213.000000
+!s107 E:/CPEN211Git/Lab7/CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/CPU.v|
+!i113 1
+R10
+R11
+vdatapath
+R12
+!i10b 1
+!s100 Hjc7l55ej9cbmX6OADd4P1
+IW2dL[8zXi1]]VG6C1nTQ;2
+R1
+R2
+w1637734290
+8E:/CPEN211Git/Lab7/datapath.v
+FE:/CPEN211Git/Lab7/datapath.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/CPEN211Git/Lab7/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/datapath.v|
+!i113 1
+R10
+R11
+vDec
+R12
+!i10b 1
+!s100 gWFL>ii`nzi9cSf^Q0fTN1
+I@M4_f<3H[KHOho6lH@@1X0
+R1
+R2
+Z14 w1637095330
+Z15 8E:/CPEN211Git/Lab7/regfile.v
+Z16 FE:/CPEN211Git/Lab7/regfile.v
+L0 39
+R6
+r1
+!s85 0
+31
+R13
+Z17 !s107 E:/CPEN211Git/Lab7/regfile.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/regfile.v|
+!i113 1
+R10
+R11
+n@dec
+vdecoder
+R12
+!i10b 1
+!s100 onaUJ`OoUX=F>G1oT9J7=3
+I8Nz9^H::OB72QM55@Wka93
+R1
+R2
+w1637725878
+8E:/CPEN211Git/Lab7/decoder.v
+FE:/CPEN211Git/Lab7/decoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/CPEN211Git/Lab7/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/decoder.v|
+!i113 1
+R10
+R11
+vFSM
+R12
+!i10b 1
+!s100 ?RE]lF;9Fln6:E_m=I5W71
+I@SGh7_O9ijBBF^_okOEUM1
+R1
+R2
+w1637734439
+8E:/CPEN211Git/Lab7/FSM.v
+FE:/CPEN211Git/Lab7/FSM.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/CPEN211Git/Lab7/FSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/FSM.v|
+!i113 1
+R10
+R11
+n@f@s@m
+vlab6_check
+R0
+!i10b 1
+!s100 XQ?:fH]AIB<YHP:>PITVS1
+I0nVA1WlQgI5BgSidI7@?e1
+R1
+R2
+w1637727130
+8E:/CPEN211Git/Lab7/lab6_autograder_check.v
+FE:/CPEN211Git/Lab7/lab6_autograder_check.v
+L0 11
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/CPEN211Git/Lab7/lab6_autograder_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/lab6_autograder_check.v|
+!i113 1
+R10
+R11
+vmux3to1
+R12
+!i10b 1
+!s100 Kh@<[z2HP7Z2CMJO;m1310
+IZ44f814WYlFE[T7ZEBCde0
+R1
+R2
+w1638053845
+8E:/CPEN211Git/Lab7/mux3to1.v
+FE:/CPEN211Git/Lab7/mux3to1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/CPEN211Git/Lab7/mux3to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/mux3to1.v|
+!i113 1
+R10
+R11
+vmux4to1
+R12
+!i10b 1
+!s100 F2U[MPi8IF0`G:Bj<:VCl0
+IX^[GgI^Y@[<WAAN<Wa^Zj1
+R1
+R2
+w1637637954
+8E:/CPEN211Git/Lab7/mux4to1.v
+FE:/CPEN211Git/Lab7/mux4to1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/CPEN211Git/Lab7/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/mux4to1.v|
+!i113 1
+R10
+R11
+vregfile
+R12
+!i10b 1
+!s100 0Va1oceN`BJh7n`LF1=T:0
+Id87UfSSThHF>dgJ0=lMiS2
+R1
+R2
+R14
+R15
+R16
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 1
+R10
+R11
+vregister
+R12
+!i10b 1
+!s100 7b1=4480CS=CCWj`2@O3X1
+IVNPA:`KYB55DBBoIkj;WH2
+R1
+R2
+R14
+R15
+R16
+L0 47
+R6
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 1
+R10
+R11
+vshifter
+R0
+!i10b 1
+!s100 8_nOSGEX9_VZ@Fm0:XC`S2
+I3M^0gG[XN:XJD;4>h[[V>2
+R1
+R2
+w1637108344
+8E:/CPEN211Git/Lab7/shifter.v
+FE:/CPEN211Git/Lab7/shifter.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/CPEN211Git/Lab7/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/shifter.v|
+!i113 1
+R10
+R11
