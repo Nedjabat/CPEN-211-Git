@@ -22,5 +22,21 @@ module cpu(clk,reset,s,load,in,out,N,V,Z,w);
     FSM machine(reset,w,loads,s,op, opcode,clk,loada,loadb,loadc,asel,bsel,vsel,write,nsel);
     datapath DP(clk,N,V,Z,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,writenum,shift,ALUop,out,sximm5,sximm8);
     
+    assign next_pc = reset_pc ?  incremental : 9'b0;
+
+    assign next_out_pc = load_pc ? next_pc : pc_out;
+
+    assign incremental = next_out_pc  + 9'b000000001;
+
+
+    assign mem_addr = addr_sel ? 9'b0 : next_out_pc;
+
+
+    always @(posedge clk)
+    begin
+	
+	    pc_out = next_out_pc; 
+	
+    end
 endmodule
   
