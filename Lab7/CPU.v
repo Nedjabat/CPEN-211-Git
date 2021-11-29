@@ -21,5 +21,6 @@ module cpu(clk,reset,s,load,in,out,N,V,Z,w);
     decoder dec(in_out,nsel,ALUop,sximm5,sximm8,shift,readnum,writenum,opcode,op);
     FSM machine(reset,w,loads,s,op, opcode,clk,loada,loadb,loadc,asel,bsel,vsel,write,nsel);
     datapath DP(clk,N,V,Z,write,vsel,loada,loadb,asel,bsel,loadc,loads,readnum,writenum,shift,ALUop,out,sximm5,sximm8);
+    
 endmodule
   
