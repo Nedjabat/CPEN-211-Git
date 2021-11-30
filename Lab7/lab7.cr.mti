@@ -1,9 +1,10 @@
-E:/CPEN211Git/Lab7/CPU.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/CPU.v
+E:/CPEN211Git/Lab7/lab7_top.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/lab7_top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cpu
+-- Compiling module lab7_top
+-- Compiling module RAM
 
 Top level modules:
-	cpu
+	lab7_top
 
 } {} {}} E:/CPEN211Git/Lab7/shifter.v {1 {vlog -work work -stats=none E:/CPEN211Git/Lab7/shifter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

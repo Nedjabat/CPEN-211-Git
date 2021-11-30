@@ -9,7 +9,7 @@ z2
 cModel Technology
 dE:/Downloads
 vAddSub
-Z0 !s110 1638060214
+Z0 !s110 1638237326
 !i10b 1
 !s100 OmaR6]4QMFoY;_LTMdBm40
 IhH]lMg5Z=EE`X1UBLE?WB2
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1638060214.000000
+Z7 !s108 1638237326.000000
 Z8 !s107 E:/CPEN211Git/Lab7/alu.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/alu.v|
 !i113 1
@@ -53,13 +53,13 @@ R10
 R11
 n@a@l@u
 vcpu
-Z12 !s110 1638060213
+R0
 !i10b 1
-!s100 eieb0HP<0]C@UDjTFXPDG3
-IaJJaZQIdo]WGknh6R48l22
+!s100 A`A5oj0H?ILKPB>hGPlF11
+Io;`]a?kW3bk=kB`@>FRe_1
 R1
 R2
-w1637727867
+w1638237322
 8E:/CPEN211Git/Lab7/CPU.v
 FE:/CPEN211Git/Lab7/CPU.v
 L0 1
@@ -67,14 +67,14 @@ R6
 r1
 !s85 0
 31
-Z13 !s108 1638060213.000000
+R7
 !s107 E:/CPEN211Git/Lab7/CPU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/CPU.v|
 !i113 1
 R10
 R11
 vdatapath
-R12
+R0
 !i10b 1
 !s100 Hjc7l55ej9cbmX6OADd4P1
 IW2dL[8zXi1]]VG6C1nTQ;2
@@ -88,36 +88,36 @@ R6
 r1
 !s85 0
 31
-R13
+R7
 !s107 E:/CPEN211Git/Lab7/datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/datapath.v|
 !i113 1
 R10
 R11
 vDec
-R12
+R0
 !i10b 1
 !s100 gWFL>ii`nzi9cSf^Q0fTN1
 I@M4_f<3H[KHOho6lH@@1X0
 R1
 R2
-Z14 w1637095330
-Z15 8E:/CPEN211Git/Lab7/regfile.v
-Z16 FE:/CPEN211Git/Lab7/regfile.v
+Z12 w1637095330
+Z13 8E:/CPEN211Git/Lab7/regfile.v
+Z14 FE:/CPEN211Git/Lab7/regfile.v
 L0 39
 R6
 r1
 !s85 0
 31
-R13
-Z17 !s107 E:/CPEN211Git/Lab7/regfile.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/regfile.v|
+R7
+Z15 !s107 E:/CPEN211Git/Lab7/regfile.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/regfile.v|
 !i113 1
 R10
 R11
 n@dec
 vdecoder
-R12
+R0
 !i10b 1
 !s100 onaUJ`OoUX=F>G1oT9J7=3
 I8Nz9^H::OB72QM55@Wka93
@@ -131,14 +131,14 @@ R6
 r1
 !s85 0
 31
-R13
+R7
 !s107 E:/CPEN211Git/Lab7/decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/decoder.v|
 !i113 1
 R10
 R11
 vFSM
-R12
+R0
 !i10b 1
 !s100 ?RE]lF;9Fln6:E_m=I5W71
 I@SGh7_O9ijBBF^_okOEUM1
@@ -152,7 +152,7 @@ R6
 r1
 !s85 0
 31
-R13
+R7
 !s107 E:/CPEN211Git/Lab7/FSM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/FSM.v|
 !i113 1
@@ -180,8 +180,29 @@ R7
 !i113 1
 R10
 R11
+vlab7_top
+Z17 !s110 1638237327
+!i10b 1
+!s100 Ullo?>MI]:03hP@><_eG;1
+Ifeo?OJWMkUaFEKOlJSVi81
+R1
+R2
+Z18 w1638236510
+Z19 8E:/CPEN211Git/Lab7/lab7_top.v
+Z20 FE:/CPEN211Git/Lab7/lab7_top.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z21 !s107 E:/CPEN211Git/Lab7/lab7_top.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/lab7_top.v|
+!i113 1
+R10
+R11
 vmux3to1
-R12
+R0
 !i10b 1
 !s100 Kh@<[z2HP7Z2CMJO;m1310
 IZ44f814WYlFE[T7ZEBCde0
@@ -195,14 +216,14 @@ R6
 r1
 !s85 0
 31
-R13
+R7
 !s107 E:/CPEN211Git/Lab7/mux3to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/mux3to1.v|
 !i113 1
 R10
 R11
 vmux4to1
-R12
+R0
 !i10b 1
 !s100 F2U[MPi8IF0`G:Bj<:VCl0
 IX^[GgI^Y@[<WAAN<Wa^Zj1
@@ -216,51 +237,73 @@ R6
 r1
 !s85 0
 31
-R13
+R7
 !s107 E:/CPEN211Git/Lab7/mux4to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/CPEN211Git/Lab7/mux4to1.v|
 !i113 1
 R10
 R11
+vRAM
+R17
+!i10b 1
+!s100 8PTNfQk@W2?hAk5J?eIK@1
+I^:gGF2?aH0X9W]Vb<:cWU2
+R1
+R2
+R18
+R19
+R20
+L0 27
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R10
+R11
+n@r@a@m
 vregfile
-R12
+R0
 !i10b 1
 !s100 0Va1oceN`BJh7n`LF1=T:0
 Id87UfSSThHF>dgJ0=lMiS2
 R1
 R2
+R12
+R13
 R14
-R15
-R16
 L0 1
 R6
 r1
 !s85 0
 31
-R13
-R17
-R18
+R7
+R15
+R16
 !i113 1
 R10
 R11
 vregister
-R12
+R0
 !i10b 1
 !s100 7b1=4480CS=CCWj`2@O3X1
 IVNPA:`KYB55DBBoIkj;WH2
 R1
 R2
+R12
+R13
 R14
-R15
-R16
 L0 47
 R6
 r1
 !s85 0
 31
-R13
-R17
-R18
+R7
+R15
+R16
 !i113 1
 R10
 R11
