@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/CPEN-211/CPEN-211-Git/Lab6
 vdatapath
-Z0 !s110 1638410061
+Z0 !s110 1638411305
 !i10b 1
-!s100 Zn6Y0cjao1j7>R^@8M6L_3
-IBIjB7]>m`1QLAcT<Yg>=D0
+!s100 S<WNWoDhF`KKJnA1[Ul:H2
+Il8k^cNjH[jLiNN2jfD1392
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/CPEN-211/CPEN-211-Git/lpt3project1
-Z3 w1638410047
+Z3 w1638411300
 Z4 8C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
 Z5 FC:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
 L0 1
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1638410061.000000
+Z7 !s108 1638411305.000000
 Z8 !s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
 !i113 1
@@ -32,14 +32,35 @@ Z11 tCvgOpt 0
 vmux3to1
 R0
 !i10b 1
-!s100 V_jNB9:84?PR5011S_^`63
-IZmKjdKGNMb0=F=R_?<nf83
+!s100 oTf[[n=dg1QonaRj?S7L60
+I:9BOl]3bJFJkL8cabF<E23
 R1
 R2
 R3
 R4
 R5
-L0 64
+L0 67
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vmux4to1
+R0
+!i10b 1
+!s100 z>faflU@bX@:lAVV?Aalz3
+IjB9oEc6BTSzT?V>zXeMOD1
+R1
+R2
+R3
+R4
+R5
+L0 83
 R6
 r1
 !s85 0
