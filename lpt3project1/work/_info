@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/CPEN-211/CPEN-211-Git/Lab6
+vdatapath
+Z0 !s110 1638410061
+!i10b 1
+!s100 Zn6Y0cjao1j7>R^@8M6L_3
+IBIjB7]>m`1QLAcT<Yg>=D0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/CPEN-211/CPEN-211-Git/lpt3project1
+Z3 w1638410047
+Z4 8C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
+Z5 FC:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1638410061.000000
+Z8 !s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vmux3to1
+R0
+!i10b 1
+!s100 V_jNB9:84?PR5011S_^`63
+IZmKjdKGNMb0=F=R_?<nf83
+R1
+R2
+R3
+R4
+R5
+L0 64
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb_add
+!s110 1638409376
+!i10b 1
+!s100 WWa;kR][hN6GkAeh^0]=E1
+I_14RT9HzHhWDOCNbUgNYz0
+R1
+R2
+w1638409367
+Z12 8C:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v
+Z13 FC:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v
+L0 142
+R6
+r1
+!s85 0
+31
+!s108 1638409376.000000
+Z14 !s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v|
+!i113 1
+R10
+R11
+vtb_check_q1
+R0
+!i10b 1
+!s100 g;BF^8WeaOz`1OjbUDV0a1
+IzP5KlA_[_M^7NF@?4_WE]1
+R1
+R2
+w1638409400
+R12
+R13
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R10
+R11
+vtb_check_q2
+!s110 1638409288
+!i10b 1
+!s100 BEOLJK_9SbT:1f@;MF80[3
+I3==APDF23J_MJc8@dHRd@3
+R1
+R2
+w1638392262
+R12
+R13
+L0 96
+R6
+r1
+!s85 0
+31
+!s108 1638409288.000000
+R14
+R15
+!i113 1
+R10
+R11

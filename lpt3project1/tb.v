@@ -93,7 +93,7 @@ module tb_check_q1;
   end
 endmodule
 
-module tb_check_q2;
+/*module tb_check_q2;
   reg clk, reset, s;
   reg [3:0] op;
   reg [7:0] in;
@@ -210,3 +210,4 @@ module tb_add;
     $stop;
   end
 endmodule
+*/

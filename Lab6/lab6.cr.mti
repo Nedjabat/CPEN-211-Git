@@ -1,16 +1,44 @@
-C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v
+C:/CPEN-211/CPEN-211-Git/Lab6/lab6_autograder_check.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/lab6_autograder_check.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab6_check
+
+Top level modules:
+	lab6_check
+
+} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/datapath.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module datapath
 
 Top level modules:
 	datapath
 
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/mux4to1.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/mux4to1.v
+} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module mux4to1
+-- Compiling module cpu
 
 Top level modules:
-	mux4to1
+	cpu
+
+} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/shifter.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/FSM.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/FSM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FSM
+
+Top level modules:
+	FSM
 
 } {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/regfile.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/regfile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -20,47 +48,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	regfile
-
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/lab6_autograder_check.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/lab6_autograder_check.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module lab6_check
-
-Top level modules:
-	lab6_check
-
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/CPU.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cpu
-
-Top level modules:
-	cpu
-
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/mux3to1.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/mux3to1.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module mux3to1
-
-Top level modules:
-	mux3to1
-
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/shifter.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/shifter.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module shifter
-
-Top level modules:
-	shifter
-
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/FSM.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/FSM.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module FSM
-
-Top level modules:
-	FSM
-
-} {} {}} C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v {1 {vlog -work work -stats=none C:/CPEN-211/CPEN-211-Git/Lab6/decoder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module decoder
-
-Top level modules:
-	decoder
 
 } {} {}}
