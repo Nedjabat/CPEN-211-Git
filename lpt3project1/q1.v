@@ -58,9 +58,7 @@ module datapath(clk,in,sr,Rn,w,aluop,lt,tsel,bsel,out);
     assign out = R0;
     
     mux4to1 #(8) mult1(R1,R2,R3,bsel,Bin);
-    //assign Bin = bsel [0] ? (bsel[1] ? (bsel[2] ? 0 : R3):R2 ) : R1;
     mux4to1 #(8) mult2(alu_out,R0,Bin,tsel,ltin);
-    //assign ltin = tsel [2] ? (tsel[1] ? (tsel[0] ? 0 :Bin): R0) : alu_out;
     mux3to1 #(8) mult3(in,alu_out,tmp,sr,rin);
 endmodule
 

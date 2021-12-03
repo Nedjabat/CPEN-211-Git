@@ -8,69 +8,90 @@ z2
 !i10f 100
 cModel Technology
 dC:/CPEN-211/CPEN-211-Git/Lab6
-vdatapath
-Z0 !s110 1638411305
+vbitwise
+Z0 !s110 1638413077
 !i10b 1
-!s100 S<WNWoDhF`KKJnA1[Ul:H2
-Il8k^cNjH[jLiNN2jfD1392
+!s100 K2b<Klk7W8aS7SQ:Xz;b72
+I_FAkAlN_naaJgmEH]zo;l0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/CPEN-211/CPEN-211-Git/lpt3project1
-Z3 w1638411300
-Z4 8C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
-Z5 FC:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
+w1638413032
+8C:/CPEN-211/CPEN-211-Git/lpt3project1/q2.v
+FC:/CPEN-211/CPEN-211-Git/lpt3project1/q2.v
 L0 1
-Z6 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1638411305.000000
-Z8 !s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
+Z4 !s108 1638413077.000000
+!s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/q2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/q2.v|
 !i113 1
-Z10 o-work work
-Z11 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
+vdatapath
+R0
+!i10b 1
+!s100 5NEXWdP3fWK<<B@;6dNXI3
+I4b[<n_578G1QH81cUg^0L3
+R1
+R2
+Z7 w1638411571
+Z8 8C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
+Z9 FC:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/q1.v|
+!i113 1
+R5
+R6
 vmux3to1
 R0
 !i10b 1
-!s100 oTf[[n=dg1QonaRj?S7L60
-I:9BOl]3bJFJkL8cabF<E23
+!s100 0@0NMUn@Z0m^Mj>eCZjjY3
+I7<3gA;UZ5lM1]6`mh<Ua^2
 R1
 R2
-R3
-R4
-R5
-L0 67
-R6
-r1
-!s85 0
-31
 R7
 R8
 R9
-!i113 1
+L0 65
+R3
+r1
+!s85 0
+31
+R4
 R10
 R11
+!i113 1
+R5
+R6
 vmux4to1
 R0
 !i10b 1
-!s100 z>faflU@bX@:lAVV?Aalz3
-IjB9oEc6BTSzT?V>zXeMOD1
+!s100 7^2^TXz=EDWG2nCWYWF113
+I]_bYjnYW_RoCWNj]MVYG[3
 R1
 R2
-R3
-R4
-R5
-L0 83
-R6
-r1
-!s85 0
-31
 R7
 R8
 R9
-!i113 1
+L0 81
+R3
+r1
+!s85 0
+31
+R4
 R10
 R11
+!i113 1
+R5
+R6
 vtb_add
 !s110 1638409376
 !i10b 1
@@ -82,7 +103,7 @@ w1638409367
 Z12 8C:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v
 Z13 FC:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v
 L0 142
-R6
+R3
 r1
 !s85 0
 31
@@ -90,8 +111,8 @@ r1
 Z14 !s107 C:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v|
 Z15 !s90 -reportprogress|300|-work|work|-stats=none|C:/CPEN-211/CPEN-211-Git/lpt3project1/tb.v|
 !i113 1
-R10
-R11
+R5
+R6
 vtb_check_q1
 R0
 !i10b 1
@@ -99,38 +120,38 @@ R0
 IzP5KlA_[_M^7NF@?4_WE]1
 R1
 R2
-w1638409400
+Z16 w1638412067
 R12
 R13
 L0 6
-R6
+R3
 r1
 !s85 0
 31
-R7
+R4
 R14
 R15
 !i113 1
-R10
-R11
+R5
+R6
 vtb_check_q2
-!s110 1638409288
+R0
 !i10b 1
 !s100 BEOLJK_9SbT:1f@;MF80[3
 I3==APDF23J_MJc8@dHRd@3
 R1
 R2
-w1638392262
+R16
 R12
 R13
 L0 96
-R6
+R3
 r1
 !s85 0
 31
-!s108 1638409288.000000
+R4
 R14
 R15
 !i113 1
-R10
-R11
+R5
+R6
